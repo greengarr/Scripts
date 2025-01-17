@@ -12,4 +12,4 @@ echo "Source user: $someuser"
 echo "Destination IP/Hostname: $someip"
 
 # Run rsync
-sudo rsync -avzh /Users/$someuser/ networkm@$someip:/Users/Shared/ --progress
+sudo rsync -avzh /Users/$someuser/ networkm@$someip:/Users/Shared/$someuser --progress
